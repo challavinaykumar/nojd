@@ -176,9 +176,13 @@ button{
 .head_flex{
    justify-content: center;
 }
+.ser_sub{
+    margin-bottom: 30px;
+}
 .ser_sub .ser_sub_text h4{
     font-size: 40px;
     font-weight: 600;
+    text-align: center;
 }
 .ser_card{
     padding: 25px 20px;
@@ -223,6 +227,7 @@ button{
     font-size: 16px;
     line-height: 30px;
     color: #777;
+    text-align: justify;
 }
 
 
@@ -288,7 +293,7 @@ svg{
     line-height: 45px;
 }
 .abt_txt .abt p{
-    font-size: 15px;
+    font-size: 15.5px;
     color: #888;
     line-height: 25px;
     text-align: justify;
@@ -494,7 +499,8 @@ svg{
     /* flex-wrap: wrap; */
     text-align: center;
     gap: 20px;
-    background: #1976d2 ;
+    /* background: #1976d2 ; */
+    background: transparent;
     
 }
 .tech_cards_sub{
@@ -519,6 +525,7 @@ svg{
     font-size: 20px;
     font-weight: 500;
     color: #fff;
+    /* text-align: center !important; */
 }
 /* .tech_cards_sub_i{
     border: 1px solid black;
@@ -1053,7 +1060,7 @@ svg{
     }
     .work_cards_main{
         flex-wrap: wrap;
-
+        justify-content: center;
     }
     .work_head h2{
         font-size: 32px;
